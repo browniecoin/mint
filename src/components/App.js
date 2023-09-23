@@ -130,9 +130,9 @@ class App extends Component {
 //        if (networkData) {
           this.setState({ loading: true });
 
-          const { abi } = require('../abis/OPEPENAI.json');
+          const { abi } = require('../abis/BrowieCoinsGuardians.json');
 
-          var smart_contract_interface = new web3.eth.Contract(abi, '0xfFB1641d3148cadb024a6936C43343ad32f9c5a6')
+          var smart_contract_interface = new web3.eth.Contract(abi, '0xD732789CDA5FCd978A26B3F58F658CD0885f8327')
 
 
           const cryptoBoysContract = smart_contract_interface;
