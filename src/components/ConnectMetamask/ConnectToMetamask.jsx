@@ -18,7 +18,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         </h1>
         <hr className="my-4" />
         <p>
-        BrownieCoin Global Token Network
+        Welcome to Brownie Coins, your one-stop financial ecosystem. We leverage blockchain technology to offer comprehensive financial technology services and consume banking-as-a-service solutions. Join us in shaping the future of finance with Brownie Coins.
         </p>
         <div className="two-column-layout">
           <div className="column">
@@ -27,11 +27,11 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
           <div className="column">
             <p>
 
-            <a href="https://github.com/kafkacoineth" >
+            <a href="https://github.com/browniecoin" >
               Github.com/browniecoin
             </a>
             <hr className="my-4" />
-            <a href="https://x.com/kafkacoineth" >
+            <a href="https://x.com/browniecoins" >
               x.com/browniecoins
             </a>
             <hr className="my-4" />
