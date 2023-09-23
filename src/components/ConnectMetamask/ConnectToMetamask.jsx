@@ -20,7 +20,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         Deployer: 0x34E92b91CB1d166DEC6bFCBaf1A4B4B99f63709f
         <hr className="my-4" />
         <p>
-        Welcome to Brownie Coins, your one-stop financial ecosystem. We leverage blockchain technology to offer comprehensive financial technology services and consume banking-as-a-service solutions. Join us in shaping the future of finance with Brownie Coins.
+        Welcome to BrownieCoins, your one-stop financial ecosystem. We leverage blockchain technology to offer comprehensive financial technology services and consume banking-as-a-service solutions. Join us in shaping the future of finance with BrownieCoins.
         </p>
         <div className="two-column-layout">
           <div className="column">
