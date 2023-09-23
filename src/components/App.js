@@ -477,7 +477,7 @@ getPunkOwner = async (punkIndex) => {
                    return null;
               }}/>
               <Route path='/opensea' component={() => {
-                   window.location.href = '#';
+                   window.location.href = 'https://opensea.io/collection/brownie-coins';
                    return null;
               }}/>
 
