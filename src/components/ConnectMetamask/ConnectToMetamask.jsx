@@ -58,6 +58,10 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
               x.com/browniecoins
             </a>
             <hr className="my-4" />
+            <a href="https://t.me/browniecoin" >
+              t.me/browniecoin
+            </a>
+            <hr className="my-4" />
             <a href="/home/" >
               Sign-in
             </a>
