@@ -166,9 +166,23 @@ const AccountDetails = ({ accountAddress, accountBalance }) => {
                         <div>
                           <h2>Token Records</h2>
                           <ul>
-                            {walletHistory.token_records && walletHistory.token_records.map((record, index) => (
-                              <li key={index}>{record}</li>
-                            ))}
+                          {walletHistory.token_records &&
+                            walletHistory.token_records.map((record, index) => {
+                              const tokens = record.split(' - ');
+                              const tokenName = tokens[0];
+                              const tokenAddress = tokens[1];
+                              const dateString = tokens[2];
+                              const date = new Date(dateString);
+
+                              // Format the date as needed, for example, in a human-readable format
+                              const formattedDate = `${date.toLocaleDateString()} ${date.toLocaleTimeString()}`;
+
+                              return (
+                                <li key={index}>
+                                  {`Token ${tokenName} - ${tokenAddress} - ${formattedDate}`}
+                                </li>
+                              );
+                            })}
                           </ul>
                             <hr className="my-4" />
                           <h2>Token Balances</h2>
