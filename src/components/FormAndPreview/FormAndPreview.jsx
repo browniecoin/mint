@@ -230,7 +230,7 @@ class FormAndPreview extends Component {
         </div>
 
           <hr className="my-4" />
-              FrogDogCoin.com &copy; 2023 All rights reserved.
+              Browniecoins.org &copy; 2023 All rights reserved.
           <hr className="my-4" />
       </div>
     );
