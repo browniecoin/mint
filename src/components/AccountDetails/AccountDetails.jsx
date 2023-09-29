@@ -165,25 +165,37 @@ const AccountDetails = ({ accountAddress, accountBalance }) => {
                       {walletHistory && (
                         <div>
                           <h2>Token Records</h2>
-                          <ul>
-                          {walletHistory.token_records &&
-                            walletHistory.token_records.map((record, index) => {
-                              const tokens = record.split(' - ');
-                              const tokenName = tokens[0];
-                              const tokenAddress = tokens[1];
-                              const dateString = tokens[2];
-                              const date = new Date(dateString);
+                          <table>
+                            <thead>
+                              <tr>
+                                <th>Token Name</th>
+                                <th>Token Address</th>
+                                <th>Date</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {walletHistory.token_records &&
+                                walletHistory.token_records.map((record, index) => {
+                                  const tokens = record.split(' - ');
+                                  const tokenName = tokens[0];
+                                  const tokenAddress = tokens[1];
+                                  const dateString = tokens[2];
+                                  const date = new Date(dateString);
 
-                              // Format the date as needed, for example, in a human-readable format
-                              const formattedDate = `${date.toLocaleDateString()} ${date.toLocaleTimeString()}`;
+                                  // Format the date as needed, for example, in a human-readable format
+                                  const formattedDate = `${date.toLocaleDateString()} ${date.toLocaleTimeString()}`;
 
-                              return (
-                                <li key={index}>
-                                  {`${tokenName} - ${tokenAddress} - ${formattedDate}`}
-                                </li>
-                              );
-                            })}
-                          </ul>
+                                  return (
+                                    <tr key={index}>
+                                      <td>{tokenName}</td>
+                                      <td>{tokenAddress}</td>
+                                      <td>{formattedDate}</td>
+                                    </tr>
+                                  );
+                                })}
+                            </tbody>
+                          </table>
+
                             <hr className="my-4" />
                           <h2>Token Balances</h2>
                           <ul>
