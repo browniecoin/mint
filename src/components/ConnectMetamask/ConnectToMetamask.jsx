@@ -24,6 +24,19 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
           In a world where kindness, hard work, and going the extra mile deserve recognition beyond mere words, enter Brownie Coin!
           Brownie Coin is a delightful and innovative way to show your appreciation to those who make a difference, even in situations where traditional monetary rewards may not be culturally appropriate or necessary.
         </p>
+        What We Offer:
+        <hr className="my-4" />
+        <p>
+            Proof of Work Blockchain: Our blockchain is secured by the tried-and-tested Proof of Work mechanism, ensuring robust security and decentralization.
+            <hr className="my-4" />
+
+            NFT Collection: Explore our unique NFT collection, featuring a blend of art and utility. Own exclusive digital assets that go beyond aesthetics and offer practical uses.
+            <hr className="my-4" />
+
+            ERC-20 Token: Fuel your journey with our native ERC-20 token. Use it for transactions, staking, or governance, and be part of the Brownie Coin ecosystem.
+        </p>
+
+
         <div className="two-column-layout">
           <div className="column">
             <p><img src="images/logo.png" width="100%" alt="Bnetly" /></p>
