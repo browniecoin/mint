@@ -27,8 +27,8 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
           In a world where kindness, hard work, and going the extra mile deserve recognition beyond mere words, enter Brownie Coin!
           Brownie Coin is a delightful and innovative way to show your appreciation to those who make a difference, even in situations where traditional monetary rewards may not be culturally appropriate or necessary.
         </p>
-        What We Offer:
-        <hr className="my-4" />
+
+        <h3>What We Offer</h3>
         <p>
             Introducing the Brownie Coin Leaderboard App – your go-to resource for staying ahead in the Brownie Coin market. This cutting-edge platform lets you search profiles by social media handles, providing real-time insights into their Brownie digital asset holdings. Dive into historical performance data and see how the leaders are shaping the market. With daily blockchain data updates, you'll always have the latest information at your fingertips. Plus, our leaderboard ranks profiles based on their Brownie asset holdings, offering a competitive edge and fostering community engagement. Don't miss out on the action – get in the game with the Brownie Coin Leaderboard App today!
             <hr className="my-4" />
