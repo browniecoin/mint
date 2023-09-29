@@ -179,7 +179,7 @@ const AccountDetails = ({ accountAddress, accountBalance }) => {
 
                               return (
                                 <li key={index}>
-                                  {`Token ${tokenName} - ${tokenAddress} - ${formattedDate}`}
+                                  {`${tokenName} - ${tokenAddress} - ${formattedDate}`}
                                 </li>
                               );
                             })}
