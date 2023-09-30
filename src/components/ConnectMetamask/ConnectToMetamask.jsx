@@ -63,8 +63,8 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
                 <hr className="my-4" />
 
         <hr className="my-4" />
+        <h3>Brownie Coin Ethereum Token</h3>
         <p>
-        Brownie Coin Ethereum Token
         <hr className="my-2" />
         CA <a href="https://etherscan.io/token/0x0d2f8ee4194d79bbf4fee6c1f14ea5a0f5075b13" >0x0d2f8EE4194D79bBF4fee6c1f14ea5a0f5075b13</a>
         </p>
