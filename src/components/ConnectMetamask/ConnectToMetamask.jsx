@@ -18,11 +18,14 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         </h1>
         <p>
         Discover <a hre="https://github.com/browniecoin/browniecoins" >Brownie Coin</a>, a proof of work blockchain inspired by Bitcoin but with unique parameters, including a modified token supply reminiscent of the meme "brownie points." Unlike traditional cryptocurrencies, Brownie Coin's value is rooted in humor and playfulness.
-        <hr className="my-4" />
+        <hr className="my-2" />
         Our primary goal is simple: to enhance network security by welcoming miners to contribute their hash rate while enjoying a fun and engaging mining experience. Join the Brownie Coin community today and be a part of this unique blockchain adventure, where securing the network is as enjoyable as it is rewarding.
         </p>
+        <hr className="my-4" />
         <p>
-        Brownie Coin CA <a href="https://etherscan.io/token/0x0d2f8ee4194d79bbf4fee6c1f14ea5a0f5075b13" >0x0d2f8EE4194D79bBF4fee6c1f14ea5a0f5075b13</a>
+        Brownie Coin Token Ethereum
+        <hr className="my-2" />
+        CA <a href="https://etherscan.io/token/0x0d2f8ee4194d79bbf4fee6c1f14ea5a0f5075b13" >0x0d2f8EE4194D79bBF4fee6c1f14ea5a0f5075b13</a>
         </p>
         <hr className="my-4" />
 
