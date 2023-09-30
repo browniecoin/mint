@@ -21,6 +21,8 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         <hr className="my-4" />
         Brownie Coin CA <a href="https://etherscan.io/token/0x0d2f8ee4194d79bbf4fee6c1f14ea5a0f5075b13" >0x0d2f8EE4194D79bBF4fee6c1f14ea5a0f5075b13</a>
         <hr className="my-4" />
+
+        <p><img src="images/tax.gif" width="100%" alt="Tax" /></p>
 <p>
 Team and Advisors (15%): Allocated 15% of the total supply to the core team and advisors as a reward for their efforts and to align their interests with the project's success.
 </p>
@@ -42,7 +44,7 @@ Brownie Coin has utility within the platform, allowing users to access premium f
 
         <hr className="my-4" />
         <h3>Rewarding Good Deeds, The Sweet Way!</h3>
-        <p><img src="images/home.gif" width="100%" alt="Bnetly" /></p>
+        <p><img src="images/home.gif" width="100%" alt="Brownie" /></p>
         <p>
           In a world where kindness, hard work, and going the extra mile deserve recognition beyond mere words, enter Brownie Coin!
           Brownie Coin is a delightful and innovative way to show your appreciation to those who make a difference, even in situations where traditional monetary rewards may not be culturally appropriate or necessary.
