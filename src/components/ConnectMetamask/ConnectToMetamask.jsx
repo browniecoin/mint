@@ -14,7 +14,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
     <div>
       <div className="jumbotron">
         <h1 className="display-5">
-          BrownieCoins.org
+          Brownie Coin
         </h1>
         <hr className="my-4" />
         Deployer: BrownieCoin.eth
