@@ -32,7 +32,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
                       Github.com/browniecoin
                     </a>
                     <hr className="my-4" />
-                    <a href="api.browniecoins.org" >
+                    <a href="https://api.browniecoins.org" >
                       api.browniecoins.org
                     </a>
                     <hr className="my-4" />
