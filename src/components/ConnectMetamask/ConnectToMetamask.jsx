@@ -17,7 +17,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
           BrownieCoins.org
         </h1>
         <hr className="my-4" />
-        Deployer: 0x34E92b91CB1d166DEC6bFCBaf1A4B4B99f63709f
+        Deployer: BrownieCoin.eth
         <hr className="my-4" />
         Brownie Coin CA 0x0d2f8EE4194D79bBF4fee6c1f14ea5a0f5075b13
         <hr className="my-4" />
