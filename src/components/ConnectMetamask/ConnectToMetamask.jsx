@@ -16,6 +16,47 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         <h1 className="display-5">
           BrownieCoin.eth
         </h1>
+
+
+                <div className="two-column-layout">
+                  <div className="column">
+                    <p><img src="images/logo.gif" width="100%" alt="Brownie Coin" /></p>
+                  </div>
+                  <div className="column">
+                    <p>
+
+                    <a href="https://github.com/browniecoin" >
+                      Github.com/browniecoin
+                    </a>
+                    <hr className="my-4" />
+                    <a href="https://x.com/browniecoins" >
+                      x.com/browniecoins
+                    </a>
+                    <hr className="my-4" />
+                    <a href="https://t.me/browniecoin" >
+                      t.me/browniecoin
+                    </a>
+                    <hr className="my-4" />
+                    <a href="/home/" >
+                      Sign-in
+                    </a>
+                    <hr className="my-4" />
+                    <button
+                      onClick={connectToMetamask}
+                      className="btn btn-primary d-flex align-items-center"
+                      style={{ fontSize: "0.9rem", letterSpacing: "0.14rem" }}
+                    >
+                      Connect Wallet
+                    </button>
+                    <hr className="my-4" />
+                    <small>
+                    Connect your wallet or sign in to access a world of Brownie Coin Digital Asset excitement. Update your socials to showcase your unique assets, check out the leaderboards, explore the enchanting Browniewood, play thrilling games, and stay tuned for more surprises. Join us today and dive into the vibrant world of Brownie Coin!
+                    </small>
+                    </p>
+                  </div>
+                </div>
+                <hr className="my-4" />
+                        
         <p>
         Discover <a href="https://github.com/browniecoin/browniecoins" >Brownie Coin</a>, a proof of work blockchain inspired by Bitcoin but with unique parameters, including a modified token supply reminiscent of the meme "brownie points." Unlike traditional cryptocurrencies, Brownie Coin's value is rooted in humor and playfulness.
         <hr className="my-2" />
@@ -72,44 +113,6 @@ Reserve Fund (10%): To address unforeseen circumstances or future expansion.
         </p>
 
 
-        <div className="two-column-layout">
-          <div className="column">
-            <p><img src="images/logo.gif" width="100%" alt="Brownie Coin" /></p>
-          </div>
-          <div className="column">
-            <p>
-
-            <a href="https://github.com/browniecoin" >
-              Github.com/browniecoin
-            </a>
-            <hr className="my-4" />
-            <a href="https://x.com/browniecoins" >
-              x.com/browniecoins
-            </a>
-            <hr className="my-4" />
-            <a href="https://t.me/browniecoin" >
-              t.me/browniecoin
-            </a>
-            <hr className="my-4" />
-            <a href="/home/" >
-              Sign-in
-            </a>
-            <hr className="my-4" />
-            <button
-              onClick={connectToMetamask}
-              className="btn btn-primary d-flex align-items-center"
-              style={{ fontSize: "0.9rem", letterSpacing: "0.14rem" }}
-            >
-              Connect Wallet
-            </button>
-            <hr className="my-4" />
-            <small>
-            Connect your wallet or sign in to access a world of Brownie Coin Digital Asset excitement. Update your socials to showcase your unique assets, check out the leaderboards, explore the enchanting Browniewood, play thrilling games, and stay tuned for more surprises. Join us today and dive into the vibrant world of Brownie Coin!
-            </small>
-            </p>
-          </div>
-        </div>
-        <hr className="my-4" />
 
       </div>
 
