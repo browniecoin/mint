@@ -18,7 +18,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         </h1>
 
         <p>
-        Introducing Brownie Coin, the OG meme currency, a groundbreaking proof-of-work blockchain that champions miners as the linchpin of the network, emphasizing decentralization and security. Unlike traditional cryptocurrencies, Brownie Coin's value derives from humor and playfulness, featuring a unique token supply system inspired by "brownie points." Join us in reshaping the crypto landscape, putting miners first and fostering a fun, rewarding community experience.
+        Introducing <a href="https://blockspot.io/coin/brownie-coin/" >Brownie Coin</a> PoW, the OG meme currency, a groundbreaking proof-of-work blockchain that champions miners as the linchpin of the network, emphasizing decentralization and security. Unlike traditional cryptocurrencies, Brownie Coin's value derives from humor and playfulness, featuring a unique token supply system inspired by "brownie points." Join us in reshaping the crypto landscape, putting miners first and fostering a fun, rewarding community experience.
         </p>
 
                 <div className="two-column-layout">
