@@ -28,6 +28,9 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         CA <a href="https://etherscan.io/token/0x0d2f8ee4194d79bbf4fee6c1f14ea5a0f5075b13" >0x0d2f8EE4194D79bBF4fee6c1f14ea5a0f5075b13</a>
         </p>
         <hr className="my-4" />
+        <p>
+        Brownie Coin Token has utility within the platform, allowing users to access premium features, vote on platform upgrades, and participate in governance decisions.
+        </p>
 
         <p><img src="images/tax.gif" width="100%" alt="Tax" /></p>
 <p>
@@ -44,9 +47,6 @@ Liquidity Pool (30%): Allocated 10% of the total supply to a liquidity pool on a
 </p>
 <p>
 Reserve Fund (10%): To address unforeseen circumstances or future expansion.
-</p>
-<p>
-Brownie Coin has utility within the platform, allowing users to access premium features, vote on platform upgrades, and participate in governance decisions.
 </p>
 
         <hr className="my-4" />
