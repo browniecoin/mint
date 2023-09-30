@@ -22,23 +22,22 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         Brownie Coin CA <a href="https://etherscan.io/token/0x0d2f8ee4194d79bbf4fee6c1f14ea5a0f5075b13" >0x0d2f8EE4194D79bBF4fee6c1f14ea5a0f5075b13</a>
         <hr className="my-4" />
 <p>
-Team and Advisors (15%): Allocate 15% of the total supply to the core team and advisors as a reward for their efforts and to align their interests with the project's success.
-This allocation should be subject to a vesting schedule to encourage long-term commitment.
+Team and Advisors (15%): Allocated 15% of the total supply to the core team and advisors as a reward for their efforts and to align their interests with the project's success.
 </p>
 <p>
-Ecosystem Development (25%): Allocate 25% of the total supply for ecosystem development. This fund can be used for partnerships, marketing, community incentives, and building integrations with other projects.
+Ecosystem Development (25%): Allocated 25% of the total supply for ecosystem development. This fund can be used for partnerships, marketing, community incentives, and building integrations with other projects.
 </p>
 <p>
-Community Rewards (20%): Reserve 20% of the total supply for community rewards and incentives. These tokens can be distributed to users who actively participate in the platform, such as creating content, sharing recipes, or referring new users.
+Community Rewards (20%): Reserved 20% of the total supply for community rewards and incentives. These tokens can be distributed to users who actively participate in the platform, such as creating content, sharing recipes, or referring new users.
 </p>
 <p>
-Liquidity Pool (30%): Allocate 10% of the total supply to a liquidity pool on a decentralized exchange (DEX) like Uniswap. This provides liquidity for trading BRWN and ensures price stability.
+Liquidity Pool (30%): Allocated 10% of the total supply to a liquidity pool on a decentralized exchange (DEX) like Uniswap. This provides liquidity for trading BRWN and ensures price stability.
 </p>
 <p>
 Reserve Fund (10%): To address unforeseen circumstances or future expansion.
 </p>
 <p>
-Brownie Coins will have utility within the platform, allowing users to access premium features, vote on platform upgrades, and participate in governance decisions.
+Brownie Coin has utility within the platform, allowing users to access premium features, vote on platform upgrades, and participate in governance decisions.
 </p>
 
         <hr className="my-4" />
