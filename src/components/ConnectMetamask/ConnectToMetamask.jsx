@@ -19,7 +19,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         <hr className="my-4" />
         Deployer: BrownieCoin.eth
         <hr className="my-4" />
-        Brownie Coin CA 0x0d2f8EE4194D79bBF4fee6c1f14ea5a0f5075b13
+        Brownie Coin CA <a href="https://etherscan.io/token/0x0d2f8ee4194d79bbf4fee6c1f14ea5a0f5075b13" >0x0d2f8EE4194D79bBF4fee6c1f14ea5a0f5075b13</a>
         <hr className="my-4" />
         <h3>Rewarding Good Deeds, The Sweet Way!</h3>
         <p><img src="images/home.gif" width="100%" alt="Bnetly" /></p>
