@@ -67,7 +67,7 @@ Brownie Coin has utility within the platform, allowing users to access premium f
 
         <div className="two-column-layout">
           <div className="column">
-            <p><img src="images/logo.png" width="100%" alt="Bnetly" /></p>
+            <p><img src="images/logo.gif" width="100%" alt="Brownie Coin" /></p>
           </div>
           <div className="column">
             <p>
