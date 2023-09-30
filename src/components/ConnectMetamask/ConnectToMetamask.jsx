@@ -95,6 +95,9 @@ Brownie Coin has utility within the platform, allowing users to access premium f
             >
               Connect Wallet
             </button>
+            <hr className="my-4" />
+            Connect your wallet or sign in to access a world of Brownie Coin Digital Asset excitement. Update your socials to showcase your unique assets, check out the leaderboards, explore the enchanting Browniewood, play thrilling games, and stay tuned for more surprises. Join us today and dive into the vibrant world of Brownie Coin!
+
             </p>
           </div>
         </div>
