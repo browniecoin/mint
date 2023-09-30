@@ -57,7 +57,8 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
                     </button>
                     <hr className="my-4" />
                     <small>
-                    Connect your wallet or sign in to access a world of Brownie Coin Digital Asset excitement. Update your socials to showcase your unique assets, check out the leaderboards, explore the enchanting Browniewood, play thrilling games, and stay tuned for more surprises. Join us today and dive into the vibrant world of Brownie Coin!
+                    Connect your wallet or sign in to access a world of Brownie Coin Digital Asset excitement. Update your socials to showcase your unique assets, check out the leaderboards,
+                    Join us today and dive into the vibrant world of Brownie Coin!
                     </small>
                     </p>
                   </div>
