@@ -18,9 +18,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         </h1>
 
         <p>
-        Discover Brownie Coin, a proof of work blockchain inspired by Bitcoin but with unique parameters, including a modified token supply reminiscent of the meme "brownie points." Unlike traditional cryptocurrencies, Brownie Coin's value is rooted in humor and playfulness.
-        <hr className="my-2" />
-        Our primary goal is simple: to enhance network security by welcoming miners to contribute their hash rate while enjoying a fun and engaging mining experience. Join the Brownie Coin community today and be a part of this unique blockchain adventure, where securing the network is as enjoyable as it is rewarding.
+        Introducing Brownie Coin, the OG meme currency, a groundbreaking proof-of-work blockchain that champions miners as the linchpin of the network, emphasizing decentralization and security. Unlike traditional cryptocurrencies, Brownie Coin's value derives from humor and playfulness, featuring a unique token supply system inspired by "brownie points." Join us in reshaping the crypto landscape, putting miners first and fostering a fun, rewarding community experience.
         </p>
 
                 <div className="two-column-layout">
