@@ -14,7 +14,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
     <div>
       <div className="jumbotron">
         <h1 className="display-5">
-          BrownieCoin.eth
+          Brownie Coin
         </h1>
 
         <p>
@@ -66,7 +66,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
                 <hr className="my-4" />
 
         <hr className="my-4" />
-        <h3>Brownie Coin Ethereum Token</h3>
+        <h3>BrownieCoin.eth Deployer Ethereum Token</h3>
         <p>
         <hr className="my-2" />
         CA <a href="https://etherscan.io/token/0x0d2f8ee4194d79bbf4fee6c1f14ea5a0f5075b13" >0x0d2f8EE4194D79bBF4fee6c1f14ea5a0f5075b13</a>
