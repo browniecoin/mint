@@ -39,7 +39,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
                     &nbsp;&nbsp;
                     <a href="/home/" ><i class="fas fa-key large-icon"></i></a>
                     &nbsp;&nbsp;
-                    <a href="/home/static/wallet/index.html" ><i class="fas fa-wallet"></i></a>
+                    <a href="/home/static/wallet/index.html" ><i class="fas fa-wallet large-icon"></i></a>
 
                     <hr className="my-4" />
                     <button
