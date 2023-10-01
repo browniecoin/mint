@@ -6,3 +6,7 @@
   height: 500px;
   width: 100%;
 }
+.large-icon {
+    font-size: 100px; /* Adjust the size as needed */
+    color: #007bff; /* Adjust the color as needed */
+}

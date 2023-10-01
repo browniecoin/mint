@@ -26,8 +26,9 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
 
                     <p>
 
-                    <a href="https://github.com/browniecoin" ><i class="fab fa-github"></i></a>
-                    <a href="/downloads/Brownie-Qt.dmg" ><i class="fab fa-apple"></i></a>
+                    <a href="https://github.com/browniecoin" ><i class="fab fa-github large-icon"></i></a>
+                    
+                    <a href="/downloads/Brownie-Qt.dmg" ><i class="fab fa-apple large-icon"></i></a>
                     <a href="https://api.browniecoins.org" >
                       <i class="fas fa-network-wired"></i>
                     </a>
