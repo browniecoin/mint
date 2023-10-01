@@ -108,9 +108,9 @@ Reserve Fund (10%): To address unforeseen circumstances or future expansion.
 
       </div>
 
-      <div className="container mt-5">
+      <div className="container mt-2">
         BrownieCoins.org &copy; 2023 All rights reserved.
-        <hr className="my-4" />
+        <hr className="my-2" />
       </div>
     </div>
   );
