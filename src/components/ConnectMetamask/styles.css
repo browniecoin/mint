@@ -17,7 +17,7 @@ body {
     font-family: 'CustomFont';
 }
 .display-5{
-  color: brown;
+  color: #6B3E26;
 }
 .custom-jumbotron {
     padding-top: 20px;
@@ -31,7 +31,7 @@ body {
 }
 .large-icon {
     font-size: 2rem; /* Adjust the size as needed */
-    color: brown; /* Adjust the color as needed */
+    color: #6B3E26; /* Adjust the color as needed */
 }
 /* CSS for the hover effect */
 .large-icon:hover {
