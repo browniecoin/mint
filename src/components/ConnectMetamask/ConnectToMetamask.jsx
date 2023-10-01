@@ -77,7 +77,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
             <h3>BrownieCoin.eth Deployer Ethereum Token</h3>
             <hr className="my-4" />
 
-            NFT Collection: Explore our unique NFT collection, featuring a blend of art and utility. Own exclusive digital assets that go beyond aesthetics and offer practical uses.
+            NFT Collection: Explore our unique <a href="https://opensea.io/collection/brownie-coins" >NFT</a> collection, featuring a blend of art and utility. Own exclusive digital assets that go beyond aesthetics and offer practical uses.
             <hr className="my-4" />
             ERC-20 Token: Fuel your journey with our native ERC-20 token. Use it for transactions, or governance, and be part of the Brownie Coin ecosystem.
         </p>
