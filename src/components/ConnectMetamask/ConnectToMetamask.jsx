@@ -36,15 +36,15 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
                     </a>
                     <hr className="my-4" />
                     <a href="https://x.com/browniecoins" >
-                      x.com/browniecoins
+                      <i class="fab fa-twitter"></i> x.com/browniecoins
                     </a>
                     <hr className="my-4" />
                     <a href="https://t.me/browniecoin" >
-                      t.me/browniecoin
+                      <i class="fab fa-telegram"></i> t.me/browniecoin
                     </a>
                     <hr className="my-4" />
                     <a href="/home/" >
-                      Sign-in
+                      <i class="fas fa-key"></i> Sign-in
                     </a>
                     <hr className="my-4" />
                     <button
