@@ -21,30 +21,24 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         Introducing <a href="https://blockspot.io/coin/brownie-coin/" >Brownie Coin</a> PoW, the OG meme currency, a groundbreaking proof-of-work blockchain that champions miners as the linchpin of the network, emphasizing decentralization and security. Unlike traditional cryptocurrencies, Brownie Coin's value derives from humor and playfulness, featuring a unique token supply system inspired by "brownie points." Join us in reshaping the crypto landscape, putting miners first and fostering a fun, rewarding community experience.
         </p>
 
-                <div className="two-column-layout">
-                  <div className="column">
+
                     <p><img src="images/logo.gif" width="100%" alt="Brownie Coin" /></p>
-                  </div>
-                  <div className="column">
+
                     <p>
 
-                    <a href="https://github.com/browniecoin" ><i class="fab fa-github"></i> Github.com/browniecoin</a>
-                    (<a href="/downloads/Brownie-Qt.dmg" ><i class="fab fa-apple"></i> mac</a>)
-                    <hr className="my-4" />
+                    <a href="https://github.com/browniecoin" ><i class="fab fa-github"></i></a>
+                    <a href="/downloads/Brownie-Qt.dmg" ><i class="fab fa-apple"></i></a>
                     <a href="https://api.browniecoins.org" >
-                      <i class="fas fa-network-wired"></i> api.browniecoins.org
+                      <i class="fas fa-network-wired"></i>
                     </a>
-                    <hr className="my-4" />
                     <a href="https://x.com/browniecoins" >
-                      <i class="fab fa-twitter"></i> x.com/browniecoins
+                      <i class="fab fa-twitter"></i>
                     </a>
-                    <hr className="my-4" />
                     <a href="https://t.me/browniecoin" >
-                      <i class="fab fa-telegram"></i> t.me/browniecoin
+                      <i class="fab fa-telegram"></i>
                     </a>
-                    <hr className="my-4" />
                     <a href="/home/" >
-                      <i class="fas fa-key"></i> Sign-in
+                      <i class="fas fa-key"></i>
                     </a>
                     <hr className="my-4" />
                     <button
@@ -55,8 +49,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
                       Connect Wallet
                     </button>
                     </p>
-                  </div>
-                </div>
+
                 <hr className="my-4" />
 
                 <p>
