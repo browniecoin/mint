@@ -18,7 +18,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         </h1>
 
         <p>
-        Introducing <a href="https://blockspot.io/coin/brownie-coin/" ><b>Brownie Coin</b></a> PoW, the OG meme coin, a proof-of-work blockchain that champions miners as the linchpin of the network, emphasizing decentralization and security. Unlike traditional cryptocurrencies, Brownie Coin's value derives from humor and playfulness, featuring a unique token supply system inspired by "brownie points." Join us in reshaping the crypto landscape, putting miners first and fostering a fun, rewarding community experience.
+        Welcome to the Home of Brownie Coin, where we've fused the whimsy of brownie points with the world of cryptocurrencies. Our digital assets ecosystem is refreshingly different, with the essence of our meme coin being essentially worthless, but its community, nostalgia, and art are priceless. Join us for a lighthearted crypto adventure where fun takes precedence over financial pressure, and where we celebrate the essence of brownie points in the digital age. Come on board and explore a cryptocurrency community like no other!
         </p>
 
 
@@ -95,7 +95,8 @@ Reserve Fund (10%): To address unforeseen circumstances or future expansion.
             Introducing the Brownie Coin Leaderboard App – your go-to resource for staying ahead in the Brownie Coin market. This cutting-edge platform lets you search profiles by social media handles, providing real-time insights into their Brownie digital asset holdings. Dive into historical performance data and see how the leaders are shaping the market. With daily blockchain data updates, you'll always have the latest information at your fingertips. Plus, our leaderboard ranks profiles based on their Brownie asset holdings, offering a competitive edge and fostering community engagement. Don't miss out on the action – get in the game with the Brownie Coin Leaderboard App today!
             <hr className="my-4" />
 
-            Proof of Work Blockchain: Our blockchain is secured by the tried-and-tested Proof of Work mechanism, ensuring robust security and decentralization.
+            Proof of Work Blockchain: Introducing <a href="https://blockspot.io/coin/brownie-coin/" ><b>Brownie Coin</b></a> PoW, the OG meme coin, a proof-of-work blockchain that champions miners as the linchpin of the network, emphasizing decentralization and security. Unlike traditional cryptocurrencies, Brownie Coin's value derives from humor and playfulness, featuring a unique token supply system inspired by "brownie points." Join us in reshaping the crypto landscape, putting miners first and fostering a fun, rewarding community experience.
+
             <hr className="my-4" />
 
             NFT Collection: Explore our unique NFT collection, featuring a blend of art and utility. Own exclusive digital assets that go beyond aesthetics and offer practical uses.
