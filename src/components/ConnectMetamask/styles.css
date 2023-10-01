@@ -10,3 +10,7 @@
     font-size: 2rem; /* Adjust the size as needed */
     color: #007bff; /* Adjust the color as needed */
 }
+/* CSS for the hover effect */
+.responsive-icon:hover {
+    color: #ff0000; /* Change to red on hover (adjust the color as needed) */
+}

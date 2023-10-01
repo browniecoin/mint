@@ -24,6 +24,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
 
                     <p><img src="images/logo.gif" width="100%" alt="Brownie Coin" /></p>
 
+                    <hr className="my-4" />
                     <p>
 
                     <a href="https://github.com/browniecoin" ><i class="fab fa-github large-icon"></i></a>
