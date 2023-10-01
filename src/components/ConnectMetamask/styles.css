@@ -11,7 +11,7 @@ body {
 }
 .custom-jumbotron {
     padding-top: 20px;
-    background-image: linear-gradient(to bottom, #000000, #FFF4C5);
+    background-image: linear-gradient(to bottom, #FFDE59, #FFFFFF);
     /* You can adjust the direction and colors as needed */
     /* For a horizontal gradient, use 'to right' instead of 'to bottom' */
     /* You can also add additional color stops or change the colors */
