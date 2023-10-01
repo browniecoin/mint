@@ -16,6 +16,9 @@ body {
     background-color: #ffffff; /* White background color */
     font-family: 'CustomFont';
 }
+.display-5{
+  color: brown;
+}
 .custom-jumbotron {
     padding-top: 20px;
     background-image: linear-gradient(to bottom, #FFDE59, #FFFFFF);
