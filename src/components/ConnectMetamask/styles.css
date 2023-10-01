@@ -24,6 +24,7 @@ body {
     /* You can also add additional color stops or change the colors */
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'CustomFont';
 }
 .large-icon {
     font-size: 2rem; /* Adjust the size as needed */
