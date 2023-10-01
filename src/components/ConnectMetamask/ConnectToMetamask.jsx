@@ -11,8 +11,8 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
 
 
   return (
-    <div >
-      <div className="jumbotron custom-jumbotron">
+    <div className="container" >
+      <div className="custom-jumbotron">
         <h1 className="display-5">
           Brownie Coin
         </h1>
