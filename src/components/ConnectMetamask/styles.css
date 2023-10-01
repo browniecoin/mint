@@ -6,8 +6,15 @@
   height: 500px;
   width: 100%;
 }
+@font-face {
+  font-family: 'CustomFont'; /* Choose a name for your font */
+  src: url('/fonts/monday_donuts.woff2') format('woff2'),
+       url('/fonts/monday_donuts.woff') format('woff');
+  /* Add additional formats if available */
+}
 body {
     background-color: #ffffff; /* White background color */
+    font-family: 'CustomFont';
 }
 .custom-jumbotron {
     padding-top: 20px;
