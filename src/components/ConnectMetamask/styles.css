@@ -9,6 +9,9 @@
 body {
     background-color: #ffffff; /* White background color */
 }
+.jumbotron-white {
+    background-color: #ffffff; /* White background color */
+}
 .large-icon {
     font-size: 2rem; /* Adjust the size as needed */
     color: #ffde59; /* Adjust the color as needed */
