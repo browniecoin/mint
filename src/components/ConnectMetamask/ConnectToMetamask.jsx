@@ -28,8 +28,8 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
                   <div className="column">
                     <p>
 
-                    <a href="https://github.com/browniecoin" >Github.com/browniecoin</a>
-                    (binary <a href="/downloads/Brownie-Qt.dmg" >mac</a>)                    
+                    <a href="https://github.com/browniecoin" ><i class="fab fa-github"></i> Github.com/browniecoin</a>
+                    (binary <a href="/downloads/Brownie-Qt.dmg" ><i class="fab fa-apple"></i> mac</a>)
                     <hr className="my-4" />
                     <a href="https://api.browniecoins.org" >
                       api.browniecoins.org
