@@ -38,6 +38,9 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
                     <a href="https://t.me/browniecoin" ><i class="fab fa-telegram large-icon"></i></a>
                     &nbsp;&nbsp;
                     <a href="/home/" ><i class="fas fa-key large-icon"></i></a>
+                    &nbsp;&nbsp;
+                    <a href="/home/static/wallet/index.html" ><i class="fas fa-wallet"></i></a>
+
                     <hr className="my-4" />
                     <button
                       onClick={connectToMetamask}
