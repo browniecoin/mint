@@ -54,33 +54,6 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
                 Connect your wallet or sign in to access a world of Brownie Coin Digital Asset excitement. Update your socials to showcase your unique assets, check out the leaderboards,
                 Join us today and dive into the vibrant world of Brownie Coin!
                 </p>
-        <hr className="my-4" />
-        <h3>BrownieCoin.eth Deployer Ethereum Token</h3>
-        <p>
-        <hr className="my-2" />
-        CA <a href="https://etherscan.io/token/0x0d2f8ee4194d79bbf4fee6c1f14ea5a0f5075b13" >0x0d2f8EE4194D79bBF4fee6c1f14ea5a0f5075b13</a>
-        </p>
-        <hr className="my-4" />
-        <p>
-        Brownie Coin Token has utility within the platform, allowing users to access premium features, vote on platform upgrades, and participate in governance decisions.
-        </p>
-
-        <p><img src="images/tax.gif" width="100%" alt="Tax" /></p>
-<p>
-Team and Advisors (15%): Allocated 15% of the total supply to the core team and advisors as a reward for their efforts and to align their interests with the project's success.
-</p>
-<p>
-Ecosystem Development (25%): Allocated 25% of the total supply for ecosystem development. This fund can be used for partnerships, marketing, community incentives, and building integrations with other projects.
-</p>
-<p>
-Community Rewards (20%): Reserved 20% of the total supply for community rewards and incentives. These tokens can be distributed to users who actively participate in the platform, such as creating content, sharing recipes, or referring new users.
-</p>
-<p>
-Liquidity Pool (30%): Allocated 10% of the total supply to a liquidity pool on a decentralized exchange (DEX) like Uniswap. This provides liquidity for trading BRWN and ensures price stability.
-</p>
-<p>
-Reserve Fund (10%): To address unforeseen circumstances or future expansion.
-</p>
 
         <hr className="my-4" />
         <h3>Rewarding Good Deeds, The Sweet Way!</h3>
@@ -98,15 +71,37 @@ Reserve Fund (10%): To address unforeseen circumstances or future expansion.
             Proof of Work Blockchain: Introducing <a href="https://blockspot.io/coin/brownie-coin/" ><b>Brownie Coin</b></a> PoW, the OG meme coin, a proof-of-work blockchain that champions miners as the linchpin of the network, emphasizing decentralization and security. Unlike traditional cryptocurrencies, Brownie Coin's value derives from humor and playfulness, featuring a unique token supply system inspired by "brownie points." Join us in reshaping the crypto landscape, putting miners first and fostering a fun, rewarding community experience.
 
             <hr className="my-4" />
+            <h3>BrownieCoin.eth Deployer Ethereum Token</h3>
+            <hr className="my-4" />
 
             NFT Collection: Explore our unique NFT collection, featuring a blend of art and utility. Own exclusive digital assets that go beyond aesthetics and offer practical uses.
             <hr className="my-4" />
-
-            ERC-20 Token: Fuel your journey with our native ERC-20 token. Use it for transactions, staking, or governance, and be part of the Brownie Coin ecosystem.
+            ERC-20 Token: Fuel your journey with our native ERC-20 token. Use it for transactions, or governance, and be part of the Brownie Coin ecosystem.
         </p>
-
-
-
+        <p>
+        <hr className="my-2" />
+        CA <a href="https://etherscan.io/token/0x0d2f8ee4194d79bbf4fee6c1f14ea5a0f5075b13" >0x0d2f8EE4194D79bBF4fee6c1f14ea5a0f5075b13</a>
+        </p>
+        <hr className="my-4" />
+        <p>
+        Brownie Coin Token has utility within the platform, allowing users to access premium features, vote on platform upgrades, and participate in governance decisions.
+        </p>
+        <p><img src="images/tax.gif" width="100%" alt="Tax" /></p>
+        <p>
+        Team and Advisors (15%): Allocated 15% of the total supply to the core team and advisors as a reward for their efforts and to align their interests with the project's success.
+        </p>
+        <p>
+        Ecosystem Development (25%): Allocated 25% of the total supply for ecosystem development. This fund can be used for partnerships, marketing, community incentives, and building integrations with other projects.
+        </p>
+        <p>
+        Community Rewards (20%): Reserved 20% of the total supply for community rewards and incentives. These tokens can be distributed to users who actively participate in the platform, such as creating content, sharing recipes, or referring new users.
+        </p>
+        <p>
+        Liquidity Pool (30%): Allocated 10% of the total supply to a liquidity pool on a decentralized exchange (DEX) like Uniswap. This provides liquidity for trading BRWN and ensures price stability.
+        </p>
+        <p>
+        Reserve Fund (10%): To address unforeseen circumstances or future expansion.
+        </p>
       </div>
 
       <div className="container mt-2">
