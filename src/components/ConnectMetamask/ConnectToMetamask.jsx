@@ -11,7 +11,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
 
 
   return (
-    <div>
+    <div className="jumbotron-white" >
       <div className="jumbotron jumbotron-white">
         <h1 className="display-5">
           Brownie Coin
