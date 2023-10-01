@@ -9,10 +9,7 @@
 body {
     background-color: #ffffff; /* White background color */
 }
-p {
-    background-color: #ffffff; /* White background color */
-}
-.display-5 {
+.custom-jumbotron {
     padding-top: 20px;
     background-image: linear-gradient(to bottom, #000000, #ffffff);
     /* You can adjust the direction and colors as needed */
@@ -20,9 +17,6 @@ p {
     /* You can also add additional color stops or change the colors */
     background-repeat: no-repeat;
     background-size: cover;
-}
-.custom-jumbotron {
-    background-color: #ffffff; /* White background color */
 }
 .large-icon {
     font-size: 2rem; /* Adjust the size as needed */
