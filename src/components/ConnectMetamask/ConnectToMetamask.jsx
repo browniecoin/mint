@@ -55,16 +55,15 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
                     >
                       Connect Wallet
                     </button>
-                    <hr className="my-4" />
-                    <small>
-                    Connect your wallet or sign in to access a world of Brownie Coin Digital Asset excitement. Update your socials to showcase your unique assets, check out the leaderboards,
-                    Join us today and dive into the vibrant world of Brownie Coin!
-                    </small>
                     </p>
                   </div>
                 </div>
                 <hr className="my-4" />
 
+                <p>
+                Connect your wallet or sign in to access a world of Brownie Coin Digital Asset excitement. Update your socials to showcase your unique assets, check out the leaderboards,
+                Join us today and dive into the vibrant world of Brownie Coin!
+                </p>
         <hr className="my-4" />
         <h3>BrownieCoin.eth Deployer Ethereum Token</h3>
         <p>
