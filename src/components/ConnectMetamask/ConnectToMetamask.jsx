@@ -27,20 +27,16 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
                     <p>
 
                     <a href="https://github.com/browniecoin" ><i class="fab fa-github large-icon"></i></a>
-                    
+                    &nbsp;&nbsp;
                     <a href="/downloads/Brownie-Qt.dmg" ><i class="fab fa-apple large-icon"></i></a>
-                    <a href="https://api.browniecoins.org" >
-                      <i class="fas fa-network-wired"></i>
-                    </a>
-                    <a href="https://x.com/browniecoins" >
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="https://t.me/browniecoin" >
-                      <i class="fab fa-telegram"></i>
-                    </a>
-                    <a href="/home/" >
-                      <i class="fas fa-key"></i>
-                    </a>
+                    &nbsp;&nbsp;
+                    <a href="https://api.browniecoins.org" ><i class="fas fa-network-wired large-icon"></i></a>
+                    &nbsp;&nbsp;
+                    <a href="https://x.com/browniecoins" ><i class="fab fa-twitter large-icon"></i></a>
+                    &nbsp;&nbsp;
+                    <a href="https://t.me/browniecoin" ><i class="fab fa-telegram large-icon"></i></a>
+                    &nbsp;&nbsp;
+                    <a href="/home/" ><i class="fas fa-key large-icon"></i></a>
                     <hr className="my-4" />
                     <button
                       onClick={connectToMetamask}
