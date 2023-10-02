@@ -100,7 +100,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         Community Rewards (20%): Reserved 20% of the total supply for community rewards and incentives. These tokens can be distributed to users who actively participate in the platform, such as creating content, sharing recipes, or referring new users.
         </p>
         <p>
-        Liquidity Pool (30%): Allocated 10% of the total supply to a liquidity pool on a decentralized exchange (DEX) like Uniswap. This provides liquidity for trading BRWN and ensures price stability.
+        Liquidity Pool (30%): Allocated 30% of the total supply to a liquidity pool on a decentralized exchange (DEX) like Uniswap. This provides liquidity for trading BRWN and ensures price stability.
         </p>
         <p>
         Reserve Fund (10%): To address unforeseen circumstances or future expansion.
