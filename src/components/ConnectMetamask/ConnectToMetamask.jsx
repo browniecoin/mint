@@ -105,9 +105,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         <p>
         Reserve Fund (10%): To address unforeseen circumstances or future expansion.
         </p>
-      </div>
-
-      <div className="container mt-2">
+        <hr className="my-2" />
         BrownieCoins.org &copy; 2023 All rights reserved.
         <hr className="my-2" />
       </div>
