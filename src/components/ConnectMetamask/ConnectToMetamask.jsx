@@ -105,6 +105,11 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         <p>
         Reserve Fund (10%): To address unforeseen circumstances or future expansion.
         </p>
+        <p>
+        Contract Renouncement and Liquidity Lock
+
+        We are pleased to inform our community that the contract for Brownie Coin will be renounced, and liquidity will be locked. This significant step demonstrates our dedication to transparency and security within our project. Thank you for your ongoing support.
+        </p>
         <hr className="my-2" />
         BrownieCoins.org &copy; 2023 All rights reserved.
         <hr className="my-2" />
