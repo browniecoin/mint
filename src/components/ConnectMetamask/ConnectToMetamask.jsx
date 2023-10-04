@@ -16,50 +16,23 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         <h1 className="display-5">
           Brownie Coin
         </h1>
-
-        **Introducing Brownie Coin: Rewarding Good Deeds with Heartfelt Tokens**
+        Spreading Sweetness, One Brownie Coin at a Time
         <hr className="my-4" />
         In a world often driven by financial incentives, there are countless moments that go unnoticed and unrewarded. Acts of kindness, going the extra mile, or simply being there for someone in a time of need often escape the spotlight. That's where Brownie Coin comes in – a unique digital currency developed to celebrate and reward the unsung heroes in our lives.
         <hr className="my-4" />
-        ### The Spirit of Brownie Coin
+        The Spirit of Brownie Coin, named after the delicious treat that warms hearts, represents a new way of acknowledging and appreciating the thoughtful gestures and good deeds that are priceless in their own right. It's a digital token that carries the essence of gratitude, recognizing those moments when a monetary reward isn't quite the right fit.
         <hr className="my-4" />
-        **Brownie Coin**, named after the delicious treat that warms hearts, represents a new way of acknowledging and appreciating the thoughtful gestures and good deeds that are priceless in their own right. It's a digital token that carries the essence of gratitude, recognizing those moments when a monetary reward isn't quite the right fit.
+        Brownie Coin is designed to be an easy-to-use, secure, and meaningful way to reward people for their exceptional actions.
         <hr className="my-4" />
-        ### How Brownie Coin Works
+        Collect your Brownie Coin and share them with friends, family, and colleagues to inspire a ripple effect of kindness.
         <hr className="my-4" />
-        Brownie Coin is designed to be an easy-to-use, secure, and meaningful way to reward people for their exceptional actions. Here's how it works:
+        Why Choose Brownie Coin
         <hr className="my-4" />
-        1. **Nominate Your Heroes**: Whenever you encounter a co-worker who goes above and beyond, a loved one who does something truly special, or anyone who touches your life in a meaningful way, nominate them for a Brownie Coin.
-        <hr className="my-4" />
-
-        2. **Digital Wallet**: Recipients receive their Brownie Coins in their digital wallets, providing a tangible symbol of your gratitude.
-        <hr className="my-4" />
-
-        3. **Collect and Share**: Collect your Brownie Coins and share them with friends, family, and colleagues to inspire a ripple effect of kindness.
-        <hr className="my-4" />
-
-        4. **Redeem for Goodness**: While Brownie Coins don't hold monetary value, they can be redeemed for a wide range of rewards. Whether it's a heartfelt thank-you note, a small act of kindness in return, or simply the joy of knowing their efforts are recognized, the possibilities are endless.
-        <hr className="my-4" />
-
-        ### Why Choose Brownie Coin
-        <hr className="my-4" />
-
         1. **Heartfelt Recognition**: Brownie Coin adds a personal touch to your gratitude, making it more meaningful than a simple "thank you."
         <hr className="my-4" />
-
         2. **Inspire Others**: By recognizing and rewarding good deeds, Brownie Coin inspires others to follow suit and create a more compassionate world.
         <hr className="my-4" />
-
-        3. **Digital and Sustainable**: Brownie Coins are eco-friendly and easy to manage, thanks to their digital nature.
-        <hr className="my-4" />
-
-        ### Join the Brownie Coin Movement
-        <hr className="my-4" />
-
-        Brownie Coin – Rewarding Good Deeds, One Heartfelt Token at a Time.
-        <hr className="my-4" />
-
-        <p>
+        <p class="p-4">
         Welcome to the Home of Brownie Coin, where we've fused the whimsy of brownie points with the world of cryptocurrencies. Our digital assets ecosystem is refreshingly different, with the essence of our meme coin being essentially worthless, but its community, nostalgia, and art are priceless. Join us for a lighthearted crypto adventure where fun takes precedence over financial pressure, and where we celebrate the essence of brownie points in the digital age. Come on board and explore a cryptocurrency community like no other!
         </p>
 
