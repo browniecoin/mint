@@ -121,13 +121,14 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         Contract Renouncement and Liquidity Lock,
 
         We are pleased to inform our community that the contract for Brownie Coin will be renounced, and liquidity will be locked. This significant step demonstrates our dedication to transparency and security within our project. Thank you for your ongoing support.
-        <p>
+
+        </p>
+        <hr className="my-4" />
+        <p class="p-5 border">
         Brownie Coin isn't just a coin; it's also a software as a service provider offering solutions to some of the most advanced payment providers in the industry.
         Upon reviewing the Brownie Coin leader board app's code base, you'll quickly recognize its seamless integration with cutting-edge Banking as a Service Solution Providers.
         Empowering users with KYC verification, FDIC-insured bank account creation, credit cards powered by Visa, and loan requests – all within one platform.
         </p>
-        </p>
-
         <hr className="my-2" />
         BrownieCoins.org &copy; 2023 All rights reserved.
         <hr className="my-2" />
