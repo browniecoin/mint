@@ -96,7 +96,10 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         <p>
         <hr className="my-2" />
         CA <a href="https://etherscan.io/token/0x0d2f8ee4194d79bbf4fee6c1f14ea5a0f5075b13" >0x0d2f8EE4194D79bBF4fee6c1f14ea5a0f5075b13</a>
+        <hr className="my-2" />
+        <a href="https://www.dextools.io/app/en/ether/pair-explorer/0x91b45cf002c27bb0b077496ce839a8194d73b37c" >Dextools</a>
         </p>
+
         <hr className="my-4" />
         <p>
         Brownie Coin Token has utility within the platform, allowing users to access premium features, vote on platform upgrades, and participate in governance decisions.
