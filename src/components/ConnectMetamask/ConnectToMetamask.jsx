@@ -7,10 +7,7 @@ import "./styles.css";
 
 import axios from 'axios';
 import * as d3 from 'd3';
-
-function wait(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
+ 
 
 const ConnectToMetamask = ({ connectToMetamask }) => {
   const [value, setValue] = useState('');
@@ -30,8 +27,6 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
           y: entry.fields.coin_supply,
         }));
 
-        // Debugging: Alert to check the chartData
-        await wait(2000);
         // Set the parsed data to the state
         setCoinStats(chartData);
       })
