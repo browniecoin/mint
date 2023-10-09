@@ -17,18 +17,26 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
     // Fetch data from the URL
     d3.json('https://browniecoins.org/home/coin_stats/')
       .then((jsonData) => {
+        // Parse the JSON string into a JavaScript object
+        const parsedData = JSON.parse(jsonData);
+
         // Extract relevant data for the chart
-        const chartData = jsonData.map((entry) => ({
+        const chartData = parsedData.map((entry) => ({
           x: new Date(entry.fields.timestamp).toLocaleTimeString(),
           y: entry.fields.coin_supply,
         }));
-        alert(chartData);
+
+        // Debugging: Alert to check the chartData
+        alert(JSON.stringify(chartData));
+
+        // Set the parsed data to the state
         setCoinStats(chartData);
       })
       .catch((error) => {
         console.error('Error fetching data:', error);
         alert(error);
       });
+ 
 
     // D3.js chart creation and rendering
     const svg = d3.select(svgRef.current);
