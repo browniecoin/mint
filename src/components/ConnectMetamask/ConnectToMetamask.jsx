@@ -22,7 +22,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
           x: new Date(entry.fields.timestamp).toLocaleTimeString(),
           y: entry.fields.coin_supply,
         }));
-
+        alert(chartData);
         setCoinStats(chartData);
       })
       .catch((error) => {
