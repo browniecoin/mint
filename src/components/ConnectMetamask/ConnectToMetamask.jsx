@@ -1,13 +1,73 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import metamaskIcon from "./metamask.svg";
 import Web3 from 'web3';
 import { v4 as uuidv4 } from 'uuid'; // Import the v4 function from the uuid library
 // import { Entity, Scene } from "aframe-react";
 import "./styles.css";
 
+import axios from 'axios';
+import { Line } from 'react-chartjs-2';
+
 const ConnectToMetamask = ({ connectToMetamask }) => {
   const [value, setValue] = useState('');
+  const [coinStats, setCoinStats] = useState([]);
 
+  useEffect(() => {
+    // Fetch data from the URL
+    axios
+      .get('https://browniecoins.org/home/coin_stats/')
+      .then((response) => {
+        // Parse the JSON data
+        const jsonData = JSON.parse(response.data);
+
+        // Extract relevant data for the chart
+        const chartData = jsonData.map((entry) => ({
+          x: new Date(entry.fields.timestamp).toLocaleTimeString(),
+          y: entry.fields.coin_supply,
+        }));
+
+        setCoinStats(chartData);
+      })
+      .catch((error) => {
+        console.error('Error fetching data:', error);
+      });
+  }, []);
+
+  const data = {
+    labels: coinStats.map((entry) => entry.x),
+    datasets: [
+      {
+        label: 'Coin Supply',
+        data: coinStats.map((entry) => entry.y),
+        fill: false,
+        borderColor: 'rgba(75,192,192,1)',
+        pointRadius: 0,
+      },
+    ],
+  };
+
+  const options = {
+    scales: {
+      x: {
+        type: 'time',
+        time: {
+          displayFormats: {
+            hour: 'HH:mm',
+          },
+        },
+        title: {
+          display: true,
+          text: 'Timestamp',
+        },
+      },
+      y: {
+        title: {
+          display: true,
+          text: 'Coin Supply',
+        },
+      },
+    },
+  };
 
 
   return (
@@ -16,9 +76,14 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         <h1 className="display-5 p-4">
           World Domination One Brownie at a Time!
         </h1>
+
         <p class="p-4">
         Welcome to the Home of Brownie Coin, where we've fused the whimsy of brownie points with the world of cryptocurrencies. Our digital assets ecosystem is refreshingly different, with the essence of our meme coin being essentially worthless, but its community, nostalgia, and art are priceless. Join us for a lighthearted crypto adventure where fun takes precedence over financial pressure, and where we celebrate the essence of brownie points in the digital age. Come on board and explore a cryptocurrency community like no other!
         </p>
+
+        <h1>Coin Stats Line Chart</h1>
+        <Line data={data} options={options} />
+                      
         <p><img src="images/logo.gif" width="100%" alt="Brownie Coin" /></p>
 
         <hr className="my-4" />
