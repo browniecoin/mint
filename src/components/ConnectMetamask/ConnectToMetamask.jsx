@@ -27,6 +27,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
       })
       .catch((error) => {
         console.error('Error fetching data:', error);
+        alert(error);
       });
 
     // D3.js chart creation and rendering
