@@ -10,118 +10,7 @@ import * as d3 from 'd3';
 
 const ConnectToMetamask = ({ connectToMetamask }) => {
   const [value, setValue] = useState('');
-  const [coinStats, setCoinStats] = useState([]);
-  const svgRef = useRef();
-
-  useEffect(() => {
-    // Fetch data from the URL
-    d3.json('https://browniecoins.org/home/coin_stats/')
-      .then((jsonData) => {
-        // Parse the JSON string into a JavaScript object
-        const parsedData = JSON.parse(jsonData);
-
-        // Extract relevant data for the chart
-        const chartData = parsedData.map((entry) => ({
-          x: new Date(entry.fields.timestamp).toLocaleTimeString(),
-          y: entry.fields.coin_supply,
-        }));
-
-        // Debugging: Alert to check the chartData
-        //alert(JSON.stringify(chartData));
-
-        // Set the parsed data to the state
-        setCoinStats(chartData);
-      })
-      .catch((error) => {
-        console.error('Error fetching data:', error);
-        alert(error);
-      });
-
-
-    // D3.js chart creation and rendering
-    const svg = d3.select(svgRef.current);
-    const width = 400;
-    const height = 300;
-
-    // Create scales for x and y axes
-    const xScale = d3
-      .scaleBand()
-      .domain(coinStats.map((entry) => entry.x))
-      .range([0, width])
-      .padding(0.1);
-
-    const yScale = d3
-      .scaleLinear()
-      .domain([0, d3.max(coinStats, (entry) => entry.y)])
-      .nice()
-      .range([height, 0]);
-
-    // Create the bars
-    svg
-      .selectAll('.bar')
-      .data(coinStats)
-      .enter()
-      .append('rect')
-      .attr('class', 'bar')
-      .attr('x', (d) => xScale(d.x))
-      .attr('y', (d) => yScale(d.y))
-      .attr('width', xScale.bandwidth())
-      .attr('height', (d) => height - yScale(d.y))
-      .attr('fill', 'steelblue');
-
-    // Create x-axis
-    svg
-      .append('g')
-      .attr('class', 'x-axis')
-      .attr('transform', `translate(0, ${height})`)
-      .call(d3.axisBottom(xScale));
-
-    // Create y-axis
-    svg
-      .append('g')
-      .attr('class', 'y-axis')
-      .call(d3.axisLeft(yScale));
-
-    // Cleanup function
-    return () => {
-      svg.selectAll('*').remove();
-    };
-  }, [coinStats]);
-
-  const data = {
-    datasets: [
-      {
-        label: 'Coin Supply',
-        data: coinStats,
-        fill: false,
-        borderColor: 'rgba(75,192,192,1)',
-        pointRadius: 0,
-      },
-    ],
-  };
-
-  const options = {
-    scales: {
-      x: {
-        type: 'time',
-        time: {
-          displayFormats: {
-            hour: 'HH:mm',
-          },
-        },
-        title: {
-          display: true,
-          text: 'Timestamp',
-        },
-      },
-      y: {
-        title: {
-          display: true,
-          text: 'Coin Supply',
-        },
-      },
-    },
-  };
+ 
 
 
   return (
@@ -134,9 +23,6 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         <p class="p-4">
         Welcome to the Home of Brownie Coin, where we've fused the whimsy of brownie points with the world of cryptocurrencies. Our digital assets ecosystem is refreshingly different, with the essence of our meme coin being essentially worthless, but its community, nostalgia, and art are priceless. Join us for a lighthearted crypto adventure where fun takes precedence over financial pressure, and where we celebrate the essence of brownie points in the digital age. Come on board and explore a cryptocurrency community like no other!
         </p>
-
-        <h1>Coin Stats Line Chart</h1>
-        <svg ref={svgRef}></svg>
 
         <p><img src="images/logo.gif" width="100%" alt="Brownie Coin" /></p>
 
