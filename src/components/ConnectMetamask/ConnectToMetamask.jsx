@@ -7,7 +7,6 @@ import "./styles.css";
 
 import axios from 'axios';
 import * as d3 from 'd3';
- 
 
 const ConnectToMetamask = ({ connectToMetamask }) => {
   const [value, setValue] = useState('');
@@ -27,11 +26,15 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
           y: entry.fields.coin_supply,
         }));
 
+        // Debugging: Alert to check the chartData
+        //alert(JSON.stringify(chartData));
+
         // Set the parsed data to the state
         setCoinStats(chartData);
       })
       .catch((error) => {
         console.error('Error fetching data:', error);
+        alert(error);
       });
 
 
@@ -83,8 +86,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
     return () => {
       svg.selectAll('*').remove();
     };
-
-  }, []); // <-- Empty dependency array to run the effect only once
+  }, [coinStats]);
 
   const data = {
     datasets: [
