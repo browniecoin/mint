@@ -6,20 +6,17 @@ import { v4 as uuidv4 } from 'uuid'; // Import the v4 function from the uuid lib
 import "./styles.css";
 
 import axios from 'axios';
-import { Line } from 'react-chartjs-2';
+import * as d3 from 'd3';
 
 const ConnectToMetamask = ({ connectToMetamask }) => {
   const [value, setValue] = useState('');
   const [coinStats, setCoinStats] = useState([]);
+  const svgRef = useRef();
 
   useEffect(() => {
     // Fetch data from the URL
-    axios
-      .get('https://browniecoins.org/home/coin_stats/')
-      .then((response) => {
-        // Parse the JSON data
-        const jsonData = JSON.parse(response.data);
-
+    d3.json('https://browniecoins.org/home/coin_stats/')
+      .then((jsonData) => {
         // Extract relevant data for the chart
         const chartData = jsonData.map((entry) => ({
           x: new Date(entry.fields.timestamp).toLocaleTimeString(),
@@ -31,14 +28,62 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
       .catch((error) => {
         console.error('Error fetching data:', error);
       });
+
+    // D3.js chart creation and rendering
+    const svg = d3.select(svgRef.current);
+    const width = 400;
+    const height = 300;
+
+    // Create scales for x and y axes
+    const xScale = d3
+      .scaleBand()
+      .domain(coinStats.map((entry) => entry.x))
+      .range([0, width])
+      .padding(0.1);
+
+    const yScale = d3
+      .scaleLinear()
+      .domain([0, d3.max(coinStats, (entry) => entry.y)])
+      .nice()
+      .range([height, 0]);
+
+    // Create the bars
+    svg
+      .selectAll('.bar')
+      .data(coinStats)
+      .enter()
+      .append('rect')
+      .attr('class', 'bar')
+      .attr('x', (d) => xScale(d.x))
+      .attr('y', (d) => yScale(d.y))
+      .attr('width', xScale.bandwidth())
+      .attr('height', (d) => height - yScale(d.y))
+      .attr('fill', 'steelblue');
+
+    // Create x-axis
+    svg
+      .append('g')
+      .attr('class', 'x-axis')
+      .attr('transform', `translate(0, ${height})`)
+      .call(d3.axisBottom(xScale));
+
+    // Create y-axis
+    svg
+      .append('g')
+      .attr('class', 'y-axis')
+      .call(d3.axisLeft(yScale));
+
+    // Cleanup function
+    return () => {
+      svg.selectAll('*').remove();
+    };
   }, []);
 
   const data = {
-    labels: coinStats.map((entry) => entry.x),
     datasets: [
       {
         label: 'Coin Supply',
-        data: coinStats.map((entry) => entry.y),
+        data: coinStats,
         fill: false,
         borderColor: 'rgba(75,192,192,1)',
         pointRadius: 0,
@@ -82,8 +127,8 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         </p>
 
         <h1>Coin Stats Line Chart</h1>
-        <Line data={data} options={options} />
-                      
+        <svg ref={svgRef}></svg>
+
         <p><img src="images/logo.gif" width="100%" alt="Brownie Coin" /></p>
 
         <hr className="my-4" />
