@@ -27,14 +27,12 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         }));
 
         // Debugging: Alert to check the chartData
-        alert(JSON.stringify(chartData));
-
+        await wait(2000);
         // Set the parsed data to the state
         setCoinStats(chartData);
       })
       .catch((error) => {
         console.error('Error fetching data:', error);
-        alert(error);
       });
 
 
