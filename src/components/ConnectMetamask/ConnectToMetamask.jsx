@@ -36,7 +36,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         console.error('Error fetching data:', error);
         alert(error);
       });
- 
+
 
     // D3.js chart creation and rendering
     const svg = d3.select(svgRef.current);
@@ -86,7 +86,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
     return () => {
       svg.selectAll('*').remove();
     };
-  }, []);
+  }, [coinStats]);
 
   const data = {
     datasets: [
