@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import metamaskIcon from "./metamask.svg";
 import Web3 from 'web3';
 import { v4 as uuidv4 } from 'uuid'; // Import the v4 function from the uuid library
