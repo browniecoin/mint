@@ -86,7 +86,8 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
     return () => {
       svg.selectAll('*').remove();
     };
-  }, [coinStats]);
+
+  }, []); // <-- Empty dependency array to run the effect only once
 
   const data = {
     datasets: [
