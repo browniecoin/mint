@@ -19,7 +19,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         <h1 className="display-5 p-4">
           World Domination One Brownie at a Time!
         </h1>
-        <canvas id="hashPowerChart" ></canvas> 
+        <canvas id="hashPowerChart" ></canvas>
         <p >
         Welcome to the Home of Brownie Coin, where we've fused the whimsy of brownie points with the world of cryptocurrencies. Our digital assets ecosystem is refreshingly different, with the essence of our meme coin being essentially worthless, but its community, nostalgia, and art are priceless. Join us for a lighthearted crypto adventure where fun takes precedence over financial pressure, and where we celebrate the essence of brownie points in the digital age. Come on board and explore a cryptocurrency community like no other!
         </p>
@@ -42,7 +42,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         2. **Inspire Others**: By recognizing and rewarding good deeds, Brownie Coin inspires others to follow suit and create a more compassionate world.
         <hr className="my-4" />
 
-                    <p class="p-2">
+                    <p className="p-2">
 
                     <a href="https://github.com/browniecoin" ><i class="fab fa-github large-icon"></i></a>
                     &nbsp;&nbsp;
@@ -136,7 +136,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
 
         </p>
         <hr className="my-4" />
-        <p class="p-5 border">
+        <p className="p-5 border">
         Brownie Coin isn't just a coin; it's also a software as a service provider offering solutions to some of the most advanced payment providers in the industry.
         Upon reviewing the Brownie Coin leader board app's code base, you'll quickly recognize its seamless integration with cutting-edge Banking as a Service Solution Providers.
         Empowering users with KYC verification, FDIC-insured bank account creation, credit cards powered by Visa, and loan requests – all within one platform.
