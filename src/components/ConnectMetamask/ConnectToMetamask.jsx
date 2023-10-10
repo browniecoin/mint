@@ -17,7 +17,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
     <div className="container" >
       <div className="jumbotron custom-jumbotron">
         <h1 className="display-5 p-4">
-          World Domination One Brownie at a Time!
+          Brownie Coin
         </h1>
         <p className="p-5" >
           <canvas id="hashPowerChart" ></canvas>
