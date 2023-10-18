@@ -44,7 +44,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
 
                     <p className="p-2">
 
-                    <a href="https://github.com/browniecoin" ><i className="fab fa-github large-icon"></i></a>
+                    <a href="https://github.com/browniecoin" ><i class="fab fa-github large-icon"></i></a>
                     &nbsp;&nbsp;
                     <a href="/downloads/Brownie-Qt.dmg" ><i class="fab fa-apple large-icon"></i></a>
                     &nbsp;&nbsp;
