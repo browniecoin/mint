@@ -14,7 +14,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
 
   useEffect(() => {
     // Fetch data and create the chart
-    fetchMiningExpData;
+    fetchMiningExpData();
   }, []);
 
   return (
