@@ -1,5 +1,6 @@
 // Define the URL to fetch JSON data
 const url_mining_supply = 'https://browniecoins.org/home/coin_stats/';
+import Chart from 'chart.js';
 
 // Function to fetch JSON data from the URL
 async function fetchMiningData() {
