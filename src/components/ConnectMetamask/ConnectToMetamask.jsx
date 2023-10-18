@@ -20,6 +20,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
           World Domination One Brownie at a Time!
         </h1>
         <canvas id="hashPowerChart" ></canvas>
+        <canvas id="coinMiningChart" ></canvas>
         <p >
         Welcome to the Home of Brownie Coin, where we've fused the whimsy of brownie points with the world of cryptocurrencies. Our digital assets ecosystem is refreshingly different, with the essence of our meme coin being essentially worthless, but its community, nostalgia, and art are priceless. Join us for a lighthearted crypto adventure where fun takes precedence over financial pressure, and where we celebrate the essence of brownie points in the digital age. Come on board and explore a cryptocurrency community like no other!
         </p>
