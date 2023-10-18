@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { Component, useEffect, useState, useRef } from "react";
 import metamaskIcon from "./metamask.svg";
 import Web3 from 'web3';
 import { v4 as uuidv4 } from 'uuid'; // Import the v4 function from the uuid library
@@ -11,20 +11,43 @@ import * as d3 from 'd3';
 const ConnectToMetamask = ({ connectToMetamask }) => {
   const [value, setValue] = useState('');
 
-
+  useEffect(() => {
+    // Fetch data and create the chart
+    fetchMiningData().then(data => {
+      createMiningLineChart(data);
+    });
+  }, []);
 
   return (
     <div className="container" >
       <div className="jumbotron custom-jumbotron">
         <h1 className="display-5 p-4">
-          Brownie Coin
+          World Domination One Brownie at a Time!
         </h1>
         <p >
-        Brownie Coin is a unique cryptocurrency that combines the whimsy of brownie points with the world of digital assets. Its value lies in community, nostalgia, and art rather than monetary worth. This digital token celebrates and rewards acts of kindness and unsung heroes in our lives, representing gratitude in a new way. Brownie Coin is designed to make it easy to reward exceptional actions, and users can share these rewards to inspire kindness. It stands out for its heartfelt recognition and its power to inspire others to create a more compassionate world.
+        Welcome to the Home of Brownie Coin, where we've fused the whimsy of brownie points with the world of cryptocurrencies. Our digital assets ecosystem is refreshingly different, with the essence of our meme coin being essentially worthless, but its community, nostalgia, and art are priceless. Join us for a lighthearted crypto adventure where fun takes precedence over financial pressure, and where we celebrate the essence of brownie points in the digital age. Come on board and explore a cryptocurrency community like no other!
         </p>
+
+        <p><img src="images/logo.gif" width="100%" alt="Brownie Coin" /></p>
         <hr className="my-4" />
+        <p className="p-5 border">
         <canvas id="hashPowerChart" ></canvas>
+        <hr className="my-1" />
         <canvas id="coinMiningChart" ></canvas>
+        </p>
+        In a world often driven by financial incentives, there are countless moments that go unnoticed and unrewarded. Acts of kindness, going the extra mile, or simply being there for someone in a time of need often escape the spotlight. That's where Brownie Coin comes in – a unique digital currency developed to celebrate and reward the unsung heroes in our lives.
+        <hr className="my-4" />
+        The Spirit of Brownie Coin, named after the delicious treat that warms hearts, represents a new way of acknowledging and appreciating the thoughtful gestures and good deeds that are priceless in their own right. It's a digital token that carries the essence of gratitude, recognizing those moments when a monetary reward isn't quite the right fit.
+        <hr className="my-4" />
+        Brownie Coin is designed to be an easy-to-use, secure, and meaningful way to reward people for their exceptional actions.
+        <hr className="my-4" />
+        Collect your Brownie Coin and share them with friends, family, and colleagues to inspire a ripple effect of kindness.
+        <hr className="my-4" />
+        Why Choose Brownie Coin
+        <hr className="my-4" />
+        1. **Heartfelt Recognition**: Brownie Coin adds a personal touch to your gratitude, making it more meaningful than a simple "thank you."
+        <hr className="my-4" />
+        2. **Inspire Others**: By recognizing and rewarding good deeds, Brownie Coin inspires others to follow suit and create a more compassionate world.
         <hr className="my-4" />
 
                     <p className="p-2">
@@ -65,7 +88,8 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
                 </p>
 
         <hr className="my-4" />
-        <h3>Rewarding Good Deeds, The Sweet Way!</h3> 
+        <h3>Rewarding Good Deeds, The Sweet Way!</h3>
+        <p><img src="images/home.gif" width="100%" alt="Brownie" /></p>
         <p>
           In a world where kindness, hard work, and going the extra mile deserve recognition beyond mere words, enter Brownie Coin!
           Brownie Coin is a delightful and innovative way to show your appreciation to those who make a difference, even in situations where traditional monetary rewards may not be culturally appropriate or necessary.
