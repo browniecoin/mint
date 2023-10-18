@@ -25,11 +25,8 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
 
         <p><img src="images/logo.gif" width="100%" alt="Brownie Coin" /></p>
         <hr className="my-4" />
-        <p className="p-5 border">
         <canvas id="hashPowerChart" ></canvas>
-        <hr className="my-1" />
         <canvas id="coinMiningChart" ></canvas>
-        </p>
         In a world often driven by financial incentives, there are countless moments that go unnoticed and unrewarded. Acts of kindness, going the extra mile, or simply being there for someone in a time of need often escape the spotlight. That's where Brownie Coin comes in – a unique digital currency developed to celebrate and reward the unsung heroes in our lives.
         <hr className="my-4" />
         The Spirit of Brownie Coin, named after the delicious treat that warms hearts, represents a new way of acknowledging and appreciating the thoughtful gestures and good deeds that are priceless in their own right. It's a digital token that carries the essence of gratitude, recognizing those moments when a monetary reward isn't quite the right fit.
@@ -47,7 +44,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
 
                     <p className="p-2">
 
-                    <a href="https://github.com/browniecoin" ><i class="fab fa-github large-icon"></i></a>
+                    <a href="https://github.com/browniecoin" ><i className="fab fa-github large-icon"></i></a>
                     &nbsp;&nbsp;
                     <a href="/downloads/Brownie-Qt.dmg" ><i class="fab fa-apple large-icon"></i></a>
                     &nbsp;&nbsp;
