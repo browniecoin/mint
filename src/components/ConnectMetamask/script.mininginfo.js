@@ -82,6 +82,8 @@ function createMiningLineChart(data) {
 }
 
 // Fetch data and create the chart
-fetchMiningData().then(data => {
-    createMiningLineChart(data);
-});
+export async function fetchMiningExpData() {
+  fetchMiningData().then(data => {
+      createMiningLineChart(data);
+  });
+}

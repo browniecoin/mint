@@ -4,7 +4,7 @@ import Web3 from 'web3';
 import { v4 as uuidv4 } from 'uuid'; // Import the v4 function from the uuid library
 // import { Entity, Scene } from "aframe-react";
 import "./styles.css";
-import { fetchMiningData } from './script.mininginfo.js';
+import { fetchMiningExpData } from './script.mininginfo.js';
 
 import axios from 'axios';
 import * as d3 from 'd3';
@@ -14,9 +14,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
 
   useEffect(() => {
     // Fetch data and create the chart
-    fetchMiningData().then(data => {
-      createMiningLineChart(data);
-    });
+    fetchMiningExpData;
   }, []);
 
   return (
@@ -31,7 +29,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
 
         <p><img src="images/logo.gif" width="100%" alt="Brownie Coin" /></p>
         <hr className="my-4" />
-        <p className="p-5 border"> 
+        <p className="p-5 border">
         <canvas id="coinMiningChart" ></canvas>
         </p>
         In a world often driven by financial incentives, there are countless moments that go unnoticed and unrewarded. Acts of kindness, going the extra mile, or simply being there for someone in a time of need often escape the spotlight. That's where Brownie Coin comes in – a unique digital currency developed to celebrate and reward the unsung heroes in our lives.
