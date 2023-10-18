@@ -48,8 +48,6 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         Collect your Brownie Coin and share them with friends, family, and colleagues to inspire a ripple effect of kindness.
         <hr className="my-4" />
         Why Choose Brownie Coin
-        <hr className="my-1" />
-        <img src="/home/get_brownie_note/" width="100%" alt="Brownie Coin" />
         <hr className="my-4" />
         1. **Heartfelt Recognition**: Brownie Coin adds a personal touch to your gratitude, making it more meaningful than a simple "thank you."
         <hr className="my-4" />
@@ -108,6 +106,8 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
 
             Proof of Work Blockchain: Introducing <a href="https://blockspot.io/coin/brownie-coin/" ><b>Brownie Coin</b></a> PoW, the OG meme coin, a proof-of-work blockchain that champions miners as the linchpin of the network, emphasizing decentralization and security. Unlike traditional cryptocurrencies, Brownie Coin's value derives from humor and playfulness, featuring a unique token supply system inspired by "brownie points." Join us in reshaping the crypto landscape, putting miners first and fostering a fun, rewarding community experience.
 
+            <hr className="my-1" />
+            <img src="/home/get_brownie_note/" width="100%" alt="Brownie Coin" />
             <hr className="my-4" />
             <h3>BrownieCoin.eth Deployer Ethereum Token</h3>
             <hr className="my-4" />
