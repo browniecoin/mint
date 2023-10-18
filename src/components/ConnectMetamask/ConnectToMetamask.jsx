@@ -65,8 +65,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
                 </p>
 
         <hr className="my-4" />
-        <h3>Rewarding Good Deeds, The Sweet Way!</h3>
-        <p><img src="images/home.gif" width="100%" alt="Brownie" /></p>
+        <h3>Rewarding Good Deeds, The Sweet Way!</h3> 
         <p>
           In a world where kindness, hard work, and going the extra mile deserve recognition beyond mere words, enter Brownie Coin!
           Brownie Coin is a delightful and innovative way to show your appreciation to those who make a difference, even in situations where traditional monetary rewards may not be culturally appropriate or necessary.
