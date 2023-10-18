@@ -19,14 +19,15 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         <h1 className="display-5 p-4">
           World Domination One Brownie at a Time!
         </h1>
-        <canvas id="hashPowerChart" ></canvas>
-        <canvas id="coinMiningChart" ></canvas>
         <p >
         Welcome to the Home of Brownie Coin, where we've fused the whimsy of brownie points with the world of cryptocurrencies. Our digital assets ecosystem is refreshingly different, with the essence of our meme coin being essentially worthless, but its community, nostalgia, and art are priceless. Join us for a lighthearted crypto adventure where fun takes precedence over financial pressure, and where we celebrate the essence of brownie points in the digital age. Come on board and explore a cryptocurrency community like no other!
         </p>
 
         <p><img src="images/logo.gif" width="100%" alt="Brownie Coin" /></p>
-
+        <p className="p-5 border">
+        <canvas id="hashPowerChart" ></canvas>
+        <canvas id="coinMiningChart" ></canvas>
+        </p>
         <hr className="my-4" />
         In a world often driven by financial incentives, there are countless moments that go unnoticed and unrewarded. Acts of kindness, going the extra mile, or simply being there for someone in a time of need often escape the spotlight. That's where Brownie Coin comes in – a unique digital currency developed to celebrate and reward the unsung heroes in our lives.
         <hr className="my-4" />
