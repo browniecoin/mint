@@ -23,7 +23,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
           Worthless in Value, Priceless in Fun!
         </h3>
         <img src="images/browniewood.gif" width="100%" alt="Brownie Coin" />
-        <p >
+        <p className="mt-3">
         Welcome to the Home of Brownie Coin, where we've fused the whimsy of brownie points with the world of cryptocurrencies. Our digital assets ecosystem is refreshingly different, with the essence of our meme coin being essentially worthless, but its community, nostalgia, and art are priceless. Join us for a lighthearted crypto adventure where fun takes precedence over financial pressure, and where we celebrate the essence of brownie points in the digital age. Come on board and explore a cryptocurrency community like no other!
         </p>
         <p className="p-5 border">
@@ -49,7 +49,7 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         <hr className="my-4" />
         Why Choose Brownie Coin
         <hr className="my-1" />
-        <img src="/home/get_brownie_note/" width="100%" alt="Brownie Coin" />        
+        <img src="/home/get_brownie_note/" width="100%" alt="Brownie Coin" />
         <hr className="my-4" />
         1. **Heartfelt Recognition**: Brownie Coin adds a personal touch to your gratitude, making it more meaningful than a simple "thank you."
         <hr className="my-4" />
